@@ -1,0 +1,40 @@
+h3{
+    background-color: rgba(255, 176, 30, 0.584) ;
+    
+    color: rgb(15, 36, 0);
+    border: 2px solid orangered;
+
+
+}
+body{
+    background-color: rgb(164, 225, 223);
+}
+
+input{
+    border: dotted;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border-width: 2px;
+
+}
+
+th{
+    border-radius: 10%;
+    box-sizing: content-box;
+    color: rgb(84, 10, 84);
+    background-color: beige;
+    border-left-style: 100px rgb(1, 29, 82);
+}
+
+#n{
+    border-bottom: 2px solid rgb(252, 137, 137);
+    border-radius: 5px;
+
+}
+
+button{
+    color: rgb(10, 6, 2);
+    background-color: rgb(241, 188, 159);
+    border-radius: 15%;
+
+}
