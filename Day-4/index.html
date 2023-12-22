@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img
+    {
+        position:relative;
+        z-index:1;
+    }
+    .ovr
+    {
+        height: 100px;
+        width: 200px;
+        border: 5px solid;
+        overflow: scroll;
+
+    }
+    .float
+    {
+        float:right
+    }
+    .opacity{
+        opacity: 0.5;
+    }
+    .transform
+    {
+        transform: scaleY(20);
+        transform: translateY(200px);
+        width: 150px;
+        height: 200px;
+        float: left;
+        transform: scaleX(0.9);
+        color: aqua;
+        background-color: rgb(197, 51, 51);
+        transform: rotateX('10');
+
+    }
+</style>
+<body>
+    <div class="img">
+        <img src="test.jpg" height="300" width="300">
+        <p>THis is z index</p>
+
+    </div>
+    <div class="ovr">
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        <p>This is Overflow Property</p>
+        
+
+
+
+    </div>
+    <div class="opacity">
+        <img src="test.jpg" height="200px" width="200px">
+    </div>
+    <div class="float">
+        <p>
+            Certainly! Here's a fun fact about the Roman Empire: </p>
+          <p>  The ancient Romans were avid users of a condiment called "garum."
+            Garum was a fermented fish sauce that served as a popular and pungent flavor enhancer in Roman cuisine.
+            It was made by fermenting fish, typically small fish like anchovies, in salt for several weeks or months.
+            The resulting sauce was then used in various dishes to add a savory and umami flavor. Garum was so widely 
+            used that it became a staple in Roman cooking, and archaeological evidence of garum production facilities has been found throughout the former Roman Empire.
+        </p>
+    </div>
+    <div style="border: 2px solid black;" class="transform">
+       <p>this is transformation</p> 
+    </div>
+    <table style="background-color: brown; width: 20px;" >
+        <tr>
+            <td>
+                <a href="index.html">Home</a> 
+            </td>
+            <td>
+                <a href="index.html">About</a> 
+            </td>
+            <td>
+                <a href="index.html">Menu</a> 
+            </td>
+            <td>
+                <a href="index.html">Exit</a> 
+            </td>
+        </tr>
+    </table>
+
+    
+    
+</body>
+</html>
