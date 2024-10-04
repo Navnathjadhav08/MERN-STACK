@@ -1,0 +1,40 @@
+body
+{
+    background: radial-gradient(circle, white, black);
+    font-family: sans-serif;
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.box
+{
+    background-color: black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+input
+{
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    border-radius: 24px;
+    background: none;
+}
+input[type = "text"], input[type = "password"]
+{
+    border: 2px solid skyblue;
+    color : lightyellow;
+}
+input[type = "submit"]
+{
+    border: 2px solid burlywood;
+    color:white;
+    cursor: pointer;
+}

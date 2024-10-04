@@ -1,0 +1,1 @@
+module.exports = `mongodb+srv://<db_username>:<db_password>@cluster1.unfkipy.mongodb.net/`
